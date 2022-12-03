@@ -1,0 +1,39 @@
+{
+  "name": "SrH4ck",
+  "short_name": "SrH4ck",
+  "lang": "es-ES",
+  "description": "Powered by NodeJS/GithubPages",
+  "id": "https://urara-demo.netlify.app/",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#3D4451",
+  "theme_color": "#3D4451",
+  "icons": [
+    {
+      "src": "https://urara-demo.netlify.app/assets/any@192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "https://urara-demo.netlify.app/assets/any@512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "https://urara-demo.netlify.app/assets/maskable@192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "https://urara-demo.netlify.app/assets/maskable@512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
