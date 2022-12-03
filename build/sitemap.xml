@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+      <loc>https://urara-demo.netlify.app</loc>
+    </url>
+    
+        <url>
+            <loc>https://urara-demo.netlify.app/hello-world/elements</loc>
+            <lastmod>2022-12-03T16:55:02.086Z</lastmod>
+            <priority>0.5</priority>
+        </url>
+        <url>
+            <loc>https://urara-demo.netlify.app/hello-world/toc-disabled</loc>
+            <lastmod>2022-12-03T16:56:56.390Z</lastmod>
+            <priority>0.5</priority>
+        </url>
+        <url>
+            <loc>https://urara-demo.netlify.app/hello-world</loc>
+            <lastmod>2022-12-03T00:00:00.000Z</lastmod>
+            <priority>0.5</priority>
+        </url>
+</urlset>
