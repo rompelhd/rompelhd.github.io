@@ -1,0 +1,1 @@
+const a=!0,r=async({url:e,fetch:t})=>({path:e.pathname,res:await t("/posts.json").then(o=>o.json())}),n=Object.freeze(Object.defineProperty({__proto__:null,prerender:!0,load:r},Symbol.toStringTag,{value:"Module"}));export{n as _,r as l,a as p};
