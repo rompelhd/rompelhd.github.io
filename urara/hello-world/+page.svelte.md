@@ -1,5 +1,5 @@
 ---
-title: 'Python3'
+title: 'Hello World'
 image: '/hello-world/urara.webp'
 alt: 'Python3'
 created: 2024-6-02
