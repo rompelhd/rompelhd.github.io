@@ -36,11 +36,9 @@ jobs:
       - name: Download build.tar from the repository
         run: wget https://github.com/rompelhd/bl4ckh4ck.github.io/raw/main/build.tar
 
-      - name: Delete existing build directory
-        run: rm -rf build
-
-      - name: Extract build.tar into the build directory
-        run: mkdir build && tar -xvf build.tar -C build
+      - name: Extract only index.html from build.tar and replace the existing one
+        run: |
+          tar -xvf build.tar --strip-components=1 -C build index.html
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
