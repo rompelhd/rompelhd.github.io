@@ -24,6 +24,9 @@ jobs:
         with:
           node-version: 18
 
+      - name: Set environment variable for static adapter
+        run: echo "ADAPTER=static" >> $GITHUB_ENV
+
       - name: Install dependencies with legacy-peer-deps
         run: npm install --legacy-peer-deps
 
