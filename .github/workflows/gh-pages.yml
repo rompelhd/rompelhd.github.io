@@ -33,17 +33,6 @@ jobs:
       - name: Build Urara site
         run: npm run build
 
-      - name: Download build.tar from the repository
-        run: wget https://github.com/rompelhd/bl4ckh4ck.github.io/raw/main/build.tar
-
-      - name: Extract all files from build.tar except hello-world
-        run: |
-          mkdir temp_build
-          tar --exclude='hello-world' -xvf build.tar -C temp_build
-
-      - name: Copy extracted files to the build directory
-        run: cp -r temp_build/* build/
-
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
