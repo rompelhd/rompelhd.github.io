@@ -1,9 +1,9 @@
 ---
-title: 'Hello World'
+title: 'Python3'
 image: '/hello-world/urara.webp'
-alt: 'Urara'
-created: 2021-11-01
-updated: 2021-12-12
+alt: 'Python3'
+created: 2024-6-02
+updated: 2024-6-03
 tags:
   - 'Hello World'
   - 'Urara'
@@ -17,7 +17,8 @@ Start a development server:
 
 ```bash
 # http://127.0.0.1:5173
-pnpm dev
+curl 192.168.1.1
+apt update
 ```
 
 or listen to different IP and port:
