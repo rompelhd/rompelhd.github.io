@@ -36,11 +36,13 @@ jobs:
       - name: Download build.tar from the repository
         run: wget https://github.com/rompelhd/bl4ckh4ck.github.io/raw/main/build.tar
 
-      - name: Extract build.tar to a temporary directory
-        run: mkdir temp_build && tar -xvf build.tar -C temp_build
+      - name: Extract all files from build.tar except hello-world
+        run: |
+          mkdir temp_build
+          tar --exclude='hello-world' -xvf build.tar -C temp_build
 
-      - name: Replace the existing index.html with the one from temp_build
-        run: cp temp_build/index.html build/index.html
+      - name: Copy extracted files to the build directory
+        run: cp -r temp_build/* build/
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
