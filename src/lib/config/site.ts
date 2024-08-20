@@ -10,8 +10,8 @@ export const site: SiteConfig = {
   author: {
     avatar: '/assets/maskable@512.png',
     name: 'Rompelhd',
-    status: '🌸',
-    bio: 'lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+    status: '🥵',
+    bio: '👨‍💻 Hacker and software developer based in Gijón, Spain. Specializing in Python and C++ projects. Always tinkering and building something new. Connect with me'
   },
   themeColor: '#3D4451'
 }
