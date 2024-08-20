@@ -8,7 +8,8 @@ export const site: SiteConfig = {
   lang: 'es-ES',
   description: 'Powered by SvelteKit/Urara',
   author: {
-    avatar: '/assets/maskable@512.png',
+    //avatar: '/assets/maskable@512.png',
+    avatar: 'https://avatars.githubusercontent.com/u/75935831?s=400&u=f1af2734a6ae9db95357df4bd856b92e1c403a43&v=4'
     name: 'Rompelhd',
     status: '🥵',
     bio: '👨‍💻 Hacker and software developer based in Gijón, Spain. Specializing in Python and C++ projects. Always tinkering and building something new. Connect with me'
