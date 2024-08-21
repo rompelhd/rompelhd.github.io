@@ -11,6 +11,7 @@ tags: ['Non-technical']
 <br/>
 <SoundCloud soundcloudLink="https://soundcloud.com/relaxing-music-production/sets/playlist-of-relaxing-soft"/>
 <br/>
+<br/>
 
 
 
@@ -41,7 +42,7 @@ In this section, we'll explore some common types of vulnerabilities in cybersecu
 
 ### Example Exploits:
 
-1. **SQL Injection Example:**
+#### 1. **SQL Injection Example:**
 
 ```sql title="sql-injection-example.sql"
 SELECT * FROM users WHERE username = 'admin' AND password = '' OR '1'='1';
@@ -49,7 +50,7 @@ SELECT * FROM users WHERE username = 'admin' AND password = '' OR '1'='1';
 
 This classic SQL Injection bypasses authentication by exploiting a poorly constructed SQL query.
 
-2. **Cross-Site Scripting (XSS) Example:**
+#### 2. **Cross-Site Scripting (XSS) Example:**
 
 ```html title="xss-alert-example.html"
 <script>alert('XSS Attack');</script>
@@ -57,7 +58,7 @@ This classic SQL Injection bypasses authentication by exploiting a poorly constr
 
 This script could be injected into a vulnerable website, leading to malicious actions.
 
-3. **Buffer Overflow Example:**
+#### 3. **Buffer Overflow Example:**
 
 ```c title="buffer-overflow-example.c"
 char buffer[8];
@@ -66,7 +67,7 @@ strcpy(buffer, "AAAAAAAAAA");
 
 This code causes a buffer overflow, potentially leading to arbitrary code execution.
 
-4. **Cross-Site Request Forgery (CSRF) Example:**
+#### 4. **Cross-Site Request Forgery (CSRF) Example:**
 
 ```html title="csrf-example.html"
 <img src="http://victim.com/delete?account=1">
@@ -74,7 +75,7 @@ This code causes a buffer overflow, potentially leading to arbitrary code execut
 
 This image tag could trick a user into performing unwanted actions on a vulnerable website.
 
-5. **Insecure Deserialization Example:**
+#### 5. **Insecure Deserialization Example:**
 
 ```python3 title="insecure-deserialization-example.py"
 import pickle
@@ -88,7 +89,7 @@ serialized_data = pickle.loads(untrusted_input)
 
 This code demonstrates how deserializing untrusted data can lead to code execution.
 
-6. **Misconfigured Security Settings Example:**
+#### 6. **Misconfigured Security Settings Example:**
 
 ```txt title="misconfigured-settings-example.txt"
 Username: admin
@@ -97,7 +98,7 @@ Password: admin
 
 Default credentials like these can leave systems exposed to unauthorized access.
 
-7. **Weak or Reused Passwords Example:**
+#### 7. **Weak or Reused Passwords Example:**
 
 ```python3 title="weak-passwords-example.py"
 password_list = ['123456', 'password', 'admin']
@@ -105,7 +106,7 @@ password_list = ['123456', 'password', 'admin']
 
 This Python list contains commonly used passwords that are easily guessable.
 
-8. **Unpatched Software Example:**
+#### 8. **Unpatched Software Example:**
 
 ```bash title="unpatched-software-example.sh"
 sudo apt-get install --only-upgrade vulnerable-package
@@ -113,7 +114,7 @@ sudo apt-get install --only-upgrade vulnerable-package
 
 Running this command updates a package to address known vulnerabilities.
 
-9. **Insufficient Access Controls Example:**
+#### 9. **Insufficient Access Controls Example:**
 
 ```js title="insufficient-access-example.js"
 if (user.role === 'guest') {
@@ -123,7 +124,7 @@ if (user.role === 'guest') {
 
 This code snippet demonstrates how insufficient access control can allow unauthorized users to access sensitive data.
 
-10. **Social Engineering Example:**
+#### 10. **Social Engineering Example:**
 
 ```html title="phishing-example.html"
 <a href="http://fakebank.com/login">Click here to reset your password</a>
