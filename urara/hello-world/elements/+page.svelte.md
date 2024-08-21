@@ -1,155 +1,133 @@
 ---
-title: Elements
-created: 2021-12-12
-tags: ['Urara', 'Elements']
+title: Common Vulnerabilities
+created: 2024-08-21
+tags: ['Non-technical']
 ---
-
-## Headings
-
-### Heading
-
-#### Heading
-
-##### Heading
-
-###### Heading
-
----
-
-## Paragraphs
-
-||spoiler||
-
-**_The_** _quick_ <u>brown</u> [fox](https://www.foxnews.com/) `jumps` ~~over~~ the lazy **dog**.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-建格的何另始養離腳合兒現各談花車是都無處與費別、信善行修覺自！壓總談下市率應次司公母兒用什一線送用標地倒直作任老數年白安足個後引使名隊懷持日落異今特族？
-
-一士我像衣買了人義，計念？
-
-期老外並中般灣作各現初知強車我的品式企國立市它北待不型師文人注信方，各成能久，然的孩界，他事應在創灣字母寫麼，會不作散際，學節水……全當名己會天還著行多是生如內他道了家至種樣見景時一……區行水影。滿用機！野於不他北軍沒企國了安巴考治連，用然手些裡像是晚，法無走，教西單不假家這廣邊務土至行氣們個身王沒影，進的客動習外因國說，大傷生出壓統發信全一非爾證。被明快至一子的劇成，義定種刻戲立日發民！出安大是養下裡的，認放官時外的：的富你排說物展年定實兒良吃乎、陸般動後，不力在理校感……顧眼王長力老。
-
-重多一？生光聯……動說麼了：起形市般我題臉事級。
-
-> In solitude, where we are least alone.
-
-私は絶対いよいよ漠然たる相当心に対してはずの他にできるならな。けっして今に養成めも何だか漠然たる仕事たないだけにしからならでをは話安んずるないですて、わざわざには聴いましたなけれた。権力を気がつきなのはどうしても先刻が毫もらしくでう。
-
-ようやく嘉納さんに供獄とても承諾をやるでしょ習慣その主義それか攻撃にに対してお関係でたあるですと、その今は俺か釣竿頭に喜ぶば、嘉納さんののより考のそれをよくごふりと云ってあなた一団がお融和へ見えようにまあご経験にしずませば、とうとうもっとも誤解になるたでいるないのを思っですた。しかもしかしながら大首へする気もずいぶん美味と移ろたて、この言葉にもいうですてってがたにしてしまえたない。この限り時代のためその学校も私上を吹き込んんかと大森さんをしなませ、人の今日んというご講義ただですば、晩の時で長靴が始めだけの時代に前もっでいて、どうの今日が思えばそのためとあたかも足りんなとしだ事でが、ないますなて少し実職業いでし事だろたませ。
-
-さて学校か不幸か話に教えですけれども、今中力が起るて得るですためがご講演の今に訊かたです。多年をはどうしても思うでいうんたずでと、まるで何とも繰り返しが周旋はさっそく悪いうので。
-
-[scrollToTop](#headings)
-
----
-
-## Lists
-
-### Definition List (dl)
-
-<dl>
-    <dt>Definition List Title</dt>
-    <dd>This is a definition list division.</dd>
-</dl>
-
-### Ordered List (ol)
-
-1. List Item 1
-2. List Item 2
-3. List Item 3
-
-### Unordered List (ul)
-
-- List Item 1
-- List Item 2
-- List Item 3
-
-### Checkbox List (ul)
-
-- [ ] List Item 1 unchecked
-- [x] List Item 2 checked
-- [x] List Item 3 checked
-  - [ ] Sub List Item 1 unchecked
-  - [x] Sub List Item 1 checked
-
-## Table
-
-| Table Header 1 | Table Header 2 | Table Header 3 |
-| -------------- | -------------- | -------------- |
-| Division 1     | Division 2     | Division 3     |
-| Division 1     | Division 2     | Division 3     |
-| Division 1     | Division 2     | Division 3     |
-
-| Table Header 1 | Table Header 2 | Table Header 3 |
-| :------------- | :------------: | -------------: |
-| Division 1     |   Division 2   |     Division 3 |
-| Division 1     |   Division 2   |     Division 3 |
-| Division 1     |   Division 2   |     Division 3 |
-
-[scrollToTop](#headings)
-
-## Footnotes
-
-Here is a footnote reference. [^1]
-
-This is a long note. [^longnote]
-
-This is an inline note. ^[You can type footnotes inline, so you don’t have to pick an identifier manually.]
-
-[^1]: Here is the footnote.
-[^longnote]: Here's one footnote with longer identifier.
-
-[scrollToTop](#headings)
-
-## Code
-
-```ts twoslash title="examples/index.ts"
-for (let x in [0]) console.log(x)
-```
-
-```ts twoslash {1-6}
-interface IdLabel {
-  id: number /* some fields */
-}
-interface NameLabel {
-  name: string /* other fields */
-}
-type NameOrId<T extends number | string> = T extends number ? IdLabel : NameLabel
-// This comment should not be included
-
-// ---cut---
-function createLabel<T extends number | string>(idOrName: T): NameOrId<T> {
-  throw 'unimplemented'
-}
-
-let a = createLabel('typescript')
-```
-
-## Misc
-
-<sup>Lorem</sup> <sub>ipsum</sub> <cite>dolor sit amet</cite>, <acronym title="Consectetur Adipiscing Elit">consectetur adipiscing elit</acronym>, <abbr title="Aliqua">sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</abbr>. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br>
-
-リバースカードオープン、エネミーコントローラー！
-
-ライフを 1000 払い、コマンド入力、<kbd>←</kbd> <kbd>→</kbd> <kbd>A</kbd> <kbd>B</kbd>！
-
-このコマンドにより、全てのアニヲタを破壊する！
-
-[scrollToTop](#headings)
-
-## Svelte Components
 
 <script>
   import { YouTube, Spotify, SoundCloud } from 'sveltekit-embed'
 </script>
 
-<YouTube youTubeId="WysuxO4yR04" />
+<br/>
+Chill music
+<Spotify spotifyLink="playlist/37i9dQZF1DX889U0CL85jj" width="100%" />
+<br/>
 
-<br />
 
-<Spotify spotifyLink="track/6pCXYUR3mBfXY8s0FYcZqQ" width="100%" />
 
-<br />
+# Types of Vulnerabilities and Their Criticality
 
-<SoundCloud soundcloudLink="https://soundcloud.com/hatsunemikuofficial/sets/sweety-glitch-remix-contest" />
+In this section, we'll explore some common types of vulnerabilities in cybersecurity and categorize them based on their level of criticality.
+
+| **Vulnerability Type**       | **Description**                                                                                             | **Criticality Level** |
+| ---------------------------- | ----------------------------------------------------------------------------------------------------------- | --------------------- |
+| **SQL Injection (SQLi)**     | A code injection technique where attackers manipulate a database query to access unauthorized information.  | High                  |
+| **Cross-Site Scripting (XSS)**| A vulnerability that allows attackers to inject malicious scripts into web pages viewed by other users.      | Medium to High        |
+| **Buffer Overflow**          | Occurs when more data is written to a buffer than it can hold, leading to crashes or code execution.        | High                  |
+| **Cross-Site Request Forgery (CSRF)** | Forces a user to execute unwanted actions on a web application where they are authenticated.           | Medium                |
+| **Insecure Deserialization** | Leads to remote code execution or other attacks by manipulating serialized objects.                         | High                  |
+| **Misconfigured Security Settings** | Weak configurations, such as default passwords or open ports, expose systems to attacks.            | Medium to High        |
+| **Weak or Reused Passwords** | Common and easily guessable passwords make systems vulnerable to brute-force or credential-stuffing attacks. | Medium                |
+| **Unpatched Software**       | Outdated software with known vulnerabilities that haven’t been updated or patched by administrators.        | High                  |
+| **Insufficient Access Controls** | Improperly defined access permissions can lead to unauthorized access to sensitive data.              | High                  |
+| **Social Engineering**       | Attacks like phishing that trick users into revealing sensitive information.                                 | Medium to High        |
+
+---
+
+**Criticality Level Explanation:**
+
+- **Low:** The vulnerability is unlikely to be exploited or has limited impact.
+- **Medium:** The vulnerability could be exploited and lead to moderate damage.
+- **High:** The vulnerability is critical and could cause severe damage if exploited.
+
+### Example Exploits:
+
+1. **SQL Injection Example:**
+
+```sql title="sql-injection-example.sql"
+SELECT * FROM users WHERE username = 'admin' AND password = '' OR '1'='1';
+```
+
+This classic SQL Injection bypasses authentication by exploiting a poorly constructed SQL query.
+
+2. **Cross-Site Scripting (XSS) Example:**
+
+```html title="xss-alert-example.html"
+<script>alert('XSS Attack');</script>
+```
+
+This script could be injected into a vulnerable website, leading to malicious actions.
+
+3. **Buffer Overflow Example:**
+
+```c title="buffer-overflow-example.c"
+char buffer[8];
+strcpy(buffer, "AAAAAAAAAA");
+```
+
+This code causes a buffer overflow, potentially leading to arbitrary code execution.
+
+4. **Cross-Site Request Forgery (CSRF) Example:**
+
+```html title="csrf-example.html"
+<img src="http://victim.com/delete?account=1">
+```
+
+This image tag could trick a user into performing unwanted actions on a vulnerable website.
+
+5. **Insecure Deserialization Example:**
+
+```python3 title="insecure-deserialization-example.py"
+import pickle
+
+# Untrusted input
+untrusted_input = b"cos\nsystem\n(S'ls -la'\ntR."
+
+# Deserialize the data
+serialized_data = pickle.loads(untrusted_input)
+```
+
+This code demonstrates how deserializing untrusted data can lead to code execution.
+
+6. **Misconfigured Security Settings Example:**
+
+```txt title="misconfigured-settings-example.txt"
+Username: admin
+Password: admin
+```
+
+Default credentials like these can leave systems exposed to unauthorized access.
+
+7. **Weak or Reused Passwords Example:**
+
+```python3 title="weak-passwords-example.py"
+password_list = ['123456', 'password', 'admin']
+```
+
+This Python list contains commonly used passwords that are easily guessable.
+
+8. **Unpatched Software Example:**
+
+```bash title="unpatched-software-example.sh"
+sudo apt-get install --only-upgrade vulnerable-package
+```
+
+Running this command updates a package to address known vulnerabilities.
+
+9. **Insufficient Access Controls Example:**
+
+```js title="insufficient-access-example.js"
+if (user.role === 'guest') {
+    viewSensitiveData();
+}
+```
+
+This code snippet demonstrates how insufficient access control can allow unauthorized users to access sensitive data.
+
+10. **Social Engineering Example:**
+
+```html title="phishing-example.html"
+<a href="http://fakebank.com/login">Click here to reset your password</a>
+```
+
+A phishing link that tricks users into providing their login credentials on a fraudulent website.
