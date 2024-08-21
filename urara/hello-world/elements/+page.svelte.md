@@ -8,6 +8,8 @@ tags: ['Non-technical']
   import { YouTube, Spotify, SoundCloud } from 'sveltekit-embed'
 </script>
 
+Before we get started, take a moment to unwind. Put on this soothing music, relax, and let the vibes flow as we dive into the intersection of relaxation and hacking. The perfect blend for a chill yet focused exploration.
+
 <br/>
 <SoundCloud
   soundcloudLink="https://soundcloud.com/relaxing-music-production/sets/playlist-of-relaxing-soft"
