@@ -9,8 +9,7 @@ tags: ['Non-technical']
 </script>
 
 <br/>
-Chill music
-<Spotify spotifyLink="playlist/37i9dQZF1DX889U0CL85jj" width="100%" />
+<SoundCloud soundcloudLink="https://soundcloud.com/relaxing-music-production/sets/playlist-of-relaxing-soft"/>
 <br/>
 
 
