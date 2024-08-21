@@ -28,7 +28,7 @@
           class="tooltip tooltip-secondary hover:text-secondary"
           data-tip="Github"
           href="https://github.com/rompelhd">
-          
+          GitHub
         </a>
         <br />
       {/if}
@@ -36,15 +36,6 @@
         ? `${footerConfig.since} - ${new Date().toJSON().substring(0, 4)}`
         : new Date().toJSON().substring(0, 4)}
       {site.author.name}
-      <br />
-      <a
-        rel="noopener noreferrer external"
-        target="_blank"
-        class="tooltip tooltip-secondary hover:text-secondary"
-        data-tip="Github"
-        href="https://github.com/rompelhd">
-        
-      </a>
       {#if footerConfig.html}
         <br />
         {@html footerConfig.html}
