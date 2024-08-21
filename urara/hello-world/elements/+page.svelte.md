@@ -77,7 +77,7 @@ This image tag could trick a user into performing unwanted actions on a vulnerab
 
 #### 5. **Insecure Deserialization Example:**
 
-```python3 title="insecure-deserialization-example.py"
+```python title="insecure-deserialization-example.py"
 import pickle
 
 # Untrusted input
@@ -100,7 +100,7 @@ Default credentials like these can leave systems exposed to unauthorized access.
 
 #### 7. **Weak or Reused Passwords Example:**
 
-```python3 title="weak-passwords-example.py"
+```python title="weak-passwords-example.py"
 password_list = ['123456', 'password', 'admin']
 ```
 
