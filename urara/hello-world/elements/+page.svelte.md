@@ -13,7 +13,7 @@ Before we get started, take a moment to unwind. Put on this soothing music, rela
 <br/>
 <SoundCloud
   soundcloudLink="https://soundcloud.com/relaxing-music-production/sets/playlist-of-relaxing-soft"
-  width="200"
+  width="500"
   height="100"
 />
 <br/>
