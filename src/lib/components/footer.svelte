@@ -22,6 +22,15 @@
           {/if}
         {/each}
         <br />
+        <a
+          rel="noopener noreferrer external"
+          target="_blank"
+          class="tooltip tooltip-secondary hover:text-secondary"
+          data-tip="Github"
+          href="https://github.com/rompelhd">
+          
+        </a>
+        <br />
       {/if}
       Copyright © {footerConfig.since && footerConfig.since !== new Date().toJSON().substring(0, 4)
         ? `${footerConfig.since} - ${new Date().toJSON().substring(0, 4)}`
