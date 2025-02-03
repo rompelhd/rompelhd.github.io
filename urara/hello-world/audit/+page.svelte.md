@@ -105,8 +105,6 @@ This exercise underscores the critical importance of securing network devices, e
 
 ---
 
-# Welcome to **bl4ckH4ck** Blog
-
 At **bl4ckH4ck**, we are dedicated to uncovering security flaws and sharing actionable insights to help organizations safeguard their systems. This report is part of our **ethical hacking** series, where we highlight real-world vulnerabilities in **controlled, authorized** settings. Stay tuned for more tutorials, security breakdowns, and penetration testing guides!
 
 > **Remember:** Security is a journey, not a destination. Always stay vigilant and proactive in protecting your network assets.
