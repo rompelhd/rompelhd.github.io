@@ -1,7 +1,7 @@
 ---
 title: "The April 28 Blackout"
-created: 2024-4-29
-updated: 2024-4-29
+created: 2025-4-29
+updated: 2025-4-30
 tags:
   - 'Non-technical'
 ---
